@@ -58,3 +58,15 @@
   </head>
 </html>
 ```
+
+<br><bR>
+
+## 3) Style Text
+
+- font-size
+- font-family
+- text-transform
+- font-style
+- line-height: 1.5 -> 높이가 글꼴의 1.5배가 된다는 의미
+
+- \<h1\>이 제일 주요한 제목이라고 해도 \<h2\>보다 커야 한다는 것은 아니다.
