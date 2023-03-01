@@ -136,8 +136,8 @@ footer p {
 
 -   RGB / RGBA Notation
 
-    -   Regular RGB Model: rgb(0, 255, 255), rgb(244, 179, 63)
-    -   RGB with transparency ("alpha"): rgba(0, 255, 255, 0.3), rgba(244, 179, 63, 0.7)
+    -   Regular RGB Model : rgb(0, 255, 255), rgb(244, 179, 63)
+    -   RGB with transparency ("alpha") : rgba(0, 255, 255, 0.3), rgba(244, 179, 63, 0.7)
 
 -   HEXADECIMAL Notation
     -   Instead of using a scale from 0 to 255, we go from 0 to ff (255 in hexadecimal numbers)
@@ -145,3 +145,10 @@ footer p {
     -   In practice, we mostly use **hexadecimal** colors, and **rgba** when we need transparency
 
 <br>
+
+### (3) Shades of GREY
+
+-   When colors in all 3 channels are the same, we get a grey color.
+-   There are 256 pure grays to choose from
+-   RGB 모델에서 세 개의 채널에 있는 세가지 색의 값이 똑같으면 회색이 된다. 모든 값이 0일 때는 완전히 검게 나오고 (rgb(0,0,0), #000000, #000) 모든 값이 최대값인 255나 ff일 경우 흰색으로 나온다. (rgb(255, 255, 255), #ffffff, #fff)
+-   그래서 정확하게 256가지 회색이 있다.
