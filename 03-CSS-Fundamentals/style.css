@@ -83,3 +83,45 @@ aside {
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
 }
+
+/* .first-li {
+    font-weight: bold;
+} */
+
+li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    font-style: italic;
+}
+li:nth-child(even) {
+    /* color: red; */
+}
+
+/* Misconception: this won't work! */
+article p:first-child {
+    color: red;
+}
+
+/* Styling Links */
+/* href 속성이 있는 a 태그만 타겟*/
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+/* 이미 방문한 사이트의 링크일 때 */
+a:visited {
+    /* color: #777; */
+    text-decoration: none;
+}
+/* 마우스 hover 시 */
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+/* 링크 클릭 시 */
+a:active {
+    background-color: black;
+    font-style: italic;
+}

@@ -152,3 +152,64 @@ footer p {
 -   There are 256 pure grays to choose from
 -   RGB 모델에서 세 개의 채널에 있는 세가지 색의 값이 똑같으면 회색이 된다. 모든 값이 0일 때는 완전히 검게 나오고 (rgb(0,0,0), #000000, #000) 모든 값이 최대값인 255나 ff일 경우 흰색으로 나온다. (rgb(255, 255, 255), #ffffff, #fff)
 -   그래서 정확하게 256가지 회색이 있다.
+
+<br>
+
+```css
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+}
+```
+
+<br><br>
+
+## 7) Pseudo-Classes
+
+```css
+li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    font-style: italic;
+}
+li:nth-child(even) {
+    /* color: red; */
+}
+
+article p:last-child {
+    color: red;
+}
+```
+
+<br><br>
+
+## 8) Styling Hyperliks
+
+```css
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+/* 이미 방문한 사이트의 링크일 때 */
+a:visited {
+    /* color: #777; */
+    text-decoration: none;
+}
+/* 마우스 hover 시 */
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+/* 링크 클릭 시 */
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+```
