@@ -120,3 +120,28 @@ footer p {
     list-style: none;
 }
 ```
+
+<br><br>
+
+## 6) Working with Colors
+
+### (1) RGB
+
+-   Every color can be represented by a combination of RED, GREEN, and BLUE
+-   Each of the 3 bas colors can take a value between 0 and 255, which leads to 16.8 million different colors
+
+<br>
+
+### (2) Defining Colors in CSS
+
+-   RGB / RGBA Notation
+
+    -   Regular RGB Model: rgb(0, 255, 255), rgb(244, 179, 63)
+    -   RGB with transparency ("alpha"): rgba(0, 255, 255, 0.3), rgba(244, 179, 63, 0.7)
+
+-   HEXADECIMAL Notation
+    -   Instead of using a scale from 0 to 255, we go from 0 to ff (255 in hexadecimal numbers)
+    -   #00ffff, #0ff
+    -   In practice, we mostly use **hexadecimal** colors, and **rgba** when we need transparency
+
+<br>
