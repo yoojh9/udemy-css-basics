@@ -213,3 +213,102 @@ a:active {
     font-style: italic;
 }
 ```
+
+<br><br>
+
+## 9) CSS THEORY # Conflicts Between Selectors
+
+-   Css selector 우선 순위는 다음과 같다.
+
+-   !important > inline style > ID(#) selector > Class(.) or pseudo-code(:) selector > Element selector(p, div, li..) > Universal selector(\*)
+
+<br>
+
+```html
+<footer>
+    <p id="copyright" class="copyright text">
+        Copyright &copy; 2027 by The Code Magazine.
+    </p>
+</footer>
+```
+
+<br>
+
+```css
+/* Resolving conflicts */
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green;
+}
+```
+
+-   그러므로 footer 하위의 p의 color는 red가 된다.
+-   .copyright text 클래스 selector는 적용되는 마지막 selector의 css가 적용된다. 그러므로 text 클래스의 color가 copyright color 값을 overwrite 한다.
+
+<br>
+
+-   pseudo-code selector가 element selector보다 우선순위가 높으므로 아래 a 태그 selector 스타일은 적용되지 않는다.
+
+<br>
+
+```css
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+/* 이미 방문한 사이트의 링크일 때 */
+a:visited {
+    /* color: #777; */
+    text-decoration: none;
+}
+/* 마우스 hover 시 */
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+/* 링크 클릭 시 */
+a:active {
+    background-color: black;
+    font-style: italic;
+}
+
+a {
+    color: red;
+}
+```
+
+<br>
+
+-   !important 키워드는 사실 상 사용하지 않아야 될 hack에 가깝다. 아래 코드는 footer 하위의 p 태그 컬러가 초록색으로 바뀐다.
+
+<br>
+
+```css
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green !important;
+}
+```
