@@ -216,7 +216,7 @@ a:active {
 
 <br><br>
 
-## 9) CSS THEORY # Conflicts Between Selectors
+## 9) CSS THEORY #1: Conflicts Between Selectors
 
 -   Css selector 우선 순위는 다음과 같다.
 
@@ -254,7 +254,7 @@ footer p {
 ```
 
 -   그러므로 footer 하위의 p의 color는 red가 된다.
--   .copyright text 클래스 selector는 적용되는 마지막 selector의 css가 적용된다. 그러므로 text 클래스의 color가 copyright color 값을 overwrite 한다.
+-   .copyright text 클래스 selector는 적용되는 마지막 selector의 css가 적용된다. 그러므로 text 클래스의 color가 copyright color 값을 override 한다.
 
 <br>
 
@@ -291,7 +291,7 @@ a {
 
 <br>
 
--   !important 키워드는 사실 상 사용하지 않아야 될 hack에 가깝다. 아래 코드는 footer 하위의 p 태그 컬러가 초록색으로 바뀐다.
+-   !important 키워드는 사실 상 사용하지 말아야 할 hack에 가깝다. 아래 코드는 footer 하위의 p 태그 컬러가 초록색으로 바뀐다.
 
 <br>
 
@@ -312,3 +312,55 @@ footer p {
     color: green !important;
 }
 ```
+
+<br><br>
+
+## 10) CSS THEORY #2: Inheritance and the universal selector
+
+-   기본적으로 상속이란 어떤 속성의 값을 부모 요소에서 자식 요소로 물려받는 것을 말한다.
+-   Not all properties get inherited. It's mostly ones **related to text**: font-family, font-size, font-weight, font-style, color, line-height, letter-spacing, text-align. text-transform. text-shadow, list-style, etc
+
+-   아래 예제에서 border-top 속성은 상속되지 않는다.
+
+<br>
+
+```css
+body {
+    color: #444;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+}
+```
+
+<br>
+
+-   body에서 정의된 스타일 속성은 h1 스타일에 의해 color, font-size 속성이 재정의된다.
+
+<br>
+
+```css
+h1 {
+    color: #1098ad;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+```
+
+<br>
+
+-   \*(universal selector)는 페이지의 모든 요소를 선택할 때 사용한다. 모든 요소에 속성이 적용되길 원하지만 그 속성이 상속되지 않을 때 유용하다.
+-   universal selector는 가장 낮은 우선순위를 갖는다.
+-   위에서 상속되지 않았던 border-top 속성도 모든 요소에 적용시킬 수 있다.
+
+<br>
+
+```css
+* {
+    border-top: 10px solid #1098ad;
+}
+```
+
+<br>
+
+-   그러므로 universal selector는 모든 요소에 적용되고 상속이 존재하지 않는다. 따라서 모든 요소에 상속되지 않은 특정 속성을 적용하고 싶을 때 유용하다. 반면 body에 스타일 속성을 넣으면 상속할 수 있다.
