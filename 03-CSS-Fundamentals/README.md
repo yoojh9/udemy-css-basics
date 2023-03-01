@@ -83,3 +83,40 @@
 footer p {
 }
 ```
+
+<br><br>
+
+## 5) Class and Id Selectors
+
+-   id selector는 중복해서 사용할 수 없다. 하나의 요소에 하나의 id만 사용해야 함
+
+<br>
+
+```css
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+```
+
+<br>
+
+-   따라서 이름을 재사용해야 한다면 클래스를 사용한다.
+-   보통은 확장성을 위해 id를 사용하지 않고 항상 클래스를 사용한다.
+
+<br>
+
+```css
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
+```
