@@ -405,12 +405,16 @@ h1 {
 <br>
 
 -   Collapsing margins(마진 상쇄) : 같은 공간을 차지하는 margin이 2개일 때 둘 중 하나만 페이지에 보인다. 보통 둘 중 더 큰 쪽이 보인다.
+-   https://github.com/yoojh9/udemy-css-basics/commit/c5c72f6496e33933a90060e34ae1540ae0d4d900
 
 <br><br>
 
 ## 13) ADDING DIMENSIONS
 
 -   100%는 parent container 너비 기준이다.
+-   https://github.com/yoojh9/udemy-css-basics/commit/414cc5c6729782678f91eeb09dae0eea0f9c4fd0
+
+<br>
 
 ```css
 .post-img {
