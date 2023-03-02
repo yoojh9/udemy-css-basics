@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* PAGE SECTION */
 body {
     color: #444;
     font-family: sans-serif;
@@ -21,7 +22,7 @@ body {
     background-color: #f7f7f7;
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    /* height: 80px; */
 }
 
 nav {
@@ -44,6 +45,7 @@ aside {
     width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -77,6 +79,7 @@ p {
     font-size: 22px;
     line-height: 1.5;
     margin-bottom: 15px;
+    /* display: inline; */
 }
 
 ul,
@@ -88,7 +91,9 @@ ol {
 li {
     font-size: 20px;
     margin-bottom: 10px;
+    /* display: inline; */
 }
+
 li:last-child {
     margin-bottom: 0;
 }
@@ -168,6 +173,16 @@ a:active {
 .post-img {
     width: 100%;
     height: auto;
+}
+
+nav a:link {
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0px;
 }
 
 /* Resolving conflicts */

@@ -443,3 +443,80 @@ h1 {
 
 -   width를 지정하고 margin-left와 margin-right를 auto로 주게 되면 왼쪽과 오른쪽 margin이 같아야 하고 브라우저에서 자동으로 마진을 계산한다. 그렇기 때문에 왼쪽와 오른쪽에 똑같은 크기의 margin이 생기게 되고 그 결과 컨테이너가 body 중앙에 오게 된다.
 -   auto란 의미를 브라우저가 자동으로 계산한다는 뜻이다.
+-   https://github.com/yoojh9/udemy-css-basics/commit/51718411ad56e1045a33185550501edb42d7f927
+
+<br><br>
+
+## 15) CSS THEORY #4: TYPES OF BOXES
+
+-   \<strong\>, \<a\>, \<img\> 등의 태그는 전체 너비가 아니라 컨텐츠 너비만큼 공간을 차지한다. 이것을 인라인 박스라고 한다.
+-   \<p\>, \<h3\> 처럼 전체 너비 영역을 차지하는 요소를 블록 레벨 박스 또는 블록 레벨 요소라고 부른다. 대부분의 요소는 블록 레벨 박스이다.
+-   즉 블록 레벨 박스는 공간을 최대한 차지하고 그 뒤에 line break를 만든다. 다시 말해 다른 요소와 나란히 있을 수 없다.
+
+<br>
+
+### (1) BLOCK-LEVEL BOXES
+
+-   Elements are formatted visually as **blocks**
+-   Elements occupy **100% of parent element's width**, no matter the content.
+-   Elements are **stacked vertically** by default, one after anther.
+-   The box-model **applies as showed** earlier
+
+<br>
+
+```
+default elements: body, main, header
+    footer, section, nav, aside, div, h1-h6,
+    p, ul, ol, li, etc.
+
+// 아래 css로 inline-box -> block-box 로 변경할 수 있음
+With CSS: display: block
+```
+
+<br>
+
+### (2) INLINE BOXES
+
+-   Occupies only the space **necessary for its content**
+-   Causes **no line-breaks** after or before the element
+-   Box model applies in a different way: **height and widths do not apply**
+-   **Paddings and margins** are applied **only horizontally** (left and right)
+
+<br>
+
+```
+default elements: a, img, strong, em, button, etc.
+
+// 아래 css로 block-box -> inline-box 로 변경할 수 있음
+With CSS: display: inline
+```
+
+<br>
+
+### (3) INLINE-BLOCK BOXES
+
+-   Looks like inline from the **outside**, behaves like block-level on the **inside**
+-   Occupies only content's space
+-   Cause no line-breaks
+-   Box-modle applies as showed (height, width 설정 가능, padding, margin 가능)
+
+<br>
+
+```css
+display: inline-block;
+```
+
+<br>
+
+-   \<img\>는 실제로 inline-block처럼 처리된다.
+-   아래 코드는 상하좌우에 margin이 적용된다. width와 height을 설정할 수 있던 것도 inline-block이기 때문에 가능하다.
+
+<br>
+
+```css
+.post-img {
+    width: 100%;
+    height: auto;
+    margin: 100px;
+}
+```
