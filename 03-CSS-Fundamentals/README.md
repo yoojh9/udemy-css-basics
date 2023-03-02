@@ -422,3 +422,24 @@ h1 {
     height: auto;
 }
 ```
+
+<br><br>
+
+## 14) CENTERING OUR PAGE
+
+-   child element는 parent element보다 커질 수 없다.
+
+<br>
+
+```css
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+```
+
+<br>
+
+-   width를 지정하고 margin-left와 margin-right를 auto로 주게 되면 왼쪽과 오른쪽 margin이 같아야 하고 브라우저에서 자동으로 마진을 계산한다. 그렇기 때문에 왼쪽와 오른쪽에 똑같은 크기의 margin이 생기게 되고 그 결과 컨테이너가 body 중앙에 오게 된다.
+-   auto란 의미를 브라우저가 자동으로 계산한다는 뜻이다.
