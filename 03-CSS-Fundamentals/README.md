@@ -385,3 +385,23 @@ h1 {
 -   **Final element height** = top border + top padding + height + bottom padding + bottom border
 
 -   This is the default behavior, but we can change it.
+
+<br><br>
+
+## 12) USING MARGINS AND PADDINGS
+
+-   global css reset
+
+<br>
+
+```css
+* {
+    /* border-top: 10px solid #1098ad; */
+    margin: 0;
+    padding: 0;
+}
+```
+
+<br>
+
+-   Collapsing margins(마진 상쇄) : 같은 공간을 차지하는 margin이 2개일 때 둘 중 하나만 페이지에 보인다. 보통 둘 중 더 큰 쪽이 보인다.
