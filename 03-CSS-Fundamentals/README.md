@@ -364,3 +364,24 @@ h1 {
 <br>
 
 -   그러므로 universal selector는 모든 요소에 적용되고 상속이 존재하지 않는다. 따라서 모든 요소에 상속되지 않은 특정 속성을 적용하고 싶을 때 유용하다. 반면 body에 스타일 속성을 넣으면 상속할 수 있다.
+
+<br><br>
+
+## 11) CSS THEORY #3: THE CSS BOX MODEL
+
+### (1) THE CSS BOX MODEL
+
+-   **Content**: Text, images, etc.
+-   **Border**: A line around the element, still **inside** of the element.
+-   **Padding**: Invisible space around the content, **inside**of the element
+-   **Margin**: Space **outside** of the element, between elements.
+-   **Fill area: Area that gets filled with **background color** or **background image\*\*
+
+<br>
+
+### (2) ELEMENT HEIGHT AND WIDTH CALCULATION
+
+-   **Final element Width** = left border + left padding + width + right padding + right border
+-   **Final element height** = top border + top padding + height + bottom padding + bottom border
+
+-   This is the default behavior, but we can change it.
