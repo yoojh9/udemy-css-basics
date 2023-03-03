@@ -128,3 +128,7 @@ float: right;
     display: block;
 }
 ```
+
+<br>
+
+### (3) Building a Simple Float Layout
