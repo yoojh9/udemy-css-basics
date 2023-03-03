@@ -163,3 +163,13 @@ Final element height = height
 
 -   slide 67p 참고
 -   box-sizing: border-box 속성은 universal selector에 넣어서 모든 요소에 적용되도록 한다.
+
+<br>
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
