@@ -15,3 +15,60 @@
 -   **FLOAT LAYOUTS** : The old way of building layouts of all size, using the float css property. still used, but getting outdated fast.
 -   **FLEXBOX**: Modern way of laying out elements in a 1-dimensional row without using floats. Perfect for component layouts.
 -   **CSS GRID**: For laying out element in a fully-fledged 2-dimensional grid. Perfect for page layouts and complex components.
+
+<br><br>
+
+## 2) Using Floats
+
+-   아래 header 영역은 child에 float 속성을 주게 되면 기존에 자식 요소만큼 차지하고 있던 높이에서 height: 0으로 바뀐다. (Collapsing Height 발생)
+-   float 속성을 사용하여 parent 하위에 child 요소가 없는 것으로 판단하기 떄문이다.
+
+<br>
+
+```html
+<header class="main-header">
+    <h1>📘 The Code Magazine</h1>
+
+    <nav>
+        <!-- <strong>This is the navigation</strong> -->
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+    </nav>
+</header>
+```
+
+```css
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+```
+
+<br>
+
+### (1) Floats
+
+-   Element is removed from the normal flow: "out of flow"
+-   Text and inline elements will wrap around the floated element.
+-   The container will not adjust its height to the element.
+-   udemy 강의 css pdf 파일 64 페이지 참고!
+
+<br>
+
+```css
+float: left
+float: right
+```
+
+<br>
