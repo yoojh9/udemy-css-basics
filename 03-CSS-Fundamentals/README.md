@@ -644,3 +644,11 @@ h2::after {
 -   위 css는 아래 이미지처럼 보인다.
 
 <img src="image.png" width="600px">
+
+<br>
+
+-   https://github.com/yoojh9/udemy-css-basics/commit/ed3718539af18b804a20b61c319ec4d2b038f931
+
+<br><br>
+
+## 18) DEVELOPER SKILL #1: GOOGLING AND READING DOCUMENTATION
