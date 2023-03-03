@@ -20,9 +20,9 @@
 
 ---
 
-# Float
+# 1. Float
 
-## 2) Using Floats
+## 1) Using Floats
 
 -   아래 header 영역은 child에 float 속성을 주게 되면 기존에 자식 요소만큼 차지하고 있던 높이에서 height: 0으로 바뀐다. (Collapsing Height 발생)
 -   float 속성을 사용하여 parent 하위에 child 요소가 없는 것으로 판단하기 떄문이다.
@@ -77,7 +77,7 @@ float: right;
 
 <br><br>
 
-## 3) Clearing Floats
+## 2) Clearing Floats
 
 ### (1) empty div를 만든다.
 
@@ -141,7 +141,7 @@ float: right;
 
 <br><br>
 
-## 4) BOX-SIZING: BORDER-BOX
+## 3) BOX-SIZING: BORDER-BOX
 
 -   slide 67p 참고
 
