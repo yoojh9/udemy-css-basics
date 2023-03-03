@@ -67,8 +67,64 @@ nav {
 <br>
 
 ```css
-float: left
-float: right
+float: left;
+float: right;
+```
+
+<br><br>
+
+## 3) Clearing Floats
+
+### (1) empty div를 만든다.
+
+<br>
+
+```html
+<header class="main-header">
+    <h1>📘 The Code Magazine</h1>
+
+    <nav>
+        <!-- <strong>This is the navigation</strong> -->
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+    </nav>
+
+    <div class="clear"></div>
+</header>
+```
+
+```css
+.clear {
+    clear: both;
+}
 ```
 
 <br>
+
+### (2) clearfix Hack을 이용한다
+
+<br>
+
+```html
+<header class="main-header clearfix">
+    <h1>📘 The Code Magazine</h1>
+
+    <nav>
+        <!-- <strong>This is the navigation</strong> -->
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+    </nav>
+</header>
+```
+
+```css
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+```
