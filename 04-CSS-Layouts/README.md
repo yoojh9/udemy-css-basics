@@ -18,6 +18,10 @@
 
 <br><br>
 
+---
+
+# Float
+
 ## 2) Using Floats
 
 -   아래 header 영역은 child에 float 속성을 주게 되면 기존에 자식 요소만큼 차지하고 있던 높이에서 height: 0으로 바뀐다. (Collapsing Height 발생)
@@ -139,6 +143,10 @@ float: right;
 
 ## 4) BOX-SIZING: BORDER-BOX
 
+-   slide 67p 참고
+
+<br>
+
 ```css
 box-sizing: border-box;
 ```
@@ -161,7 +169,6 @@ Final element height = height
 
 <br>
 
--   slide 67p 참고
 -   box-sizing: border-box 속성은 universal selector에 넣어서 모든 요소에 적용되도록 한다.
 
 <br>
