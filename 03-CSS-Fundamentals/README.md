@@ -520,3 +520,69 @@ display: inline-block;
     margin: 100px;
 }
 ```
+
+<br><br>
+
+## 16) CSS THEORY #5: ABSOLUTE POSITIONING
+
+### (1) Normal Flow
+
+-   Default positioning
+-   Element is "in flow"
+-   Element are simply laid out according to their order in the HTML code
+
+<br>
+
+```
+Default Positioning
+
+position: relative
+```
+
+<br>
+
+### (2) Absolute Positioning
+
+-   Element is removed from the normal flow: "out of flow"
+-   No impact on surrounding elements, might over them
+-   we use top, bottom, left, or right to offset the element from its relatively positioned container
+
+<br>
+
+```
+position: absolute
+```
+
+<br>
+
+```css
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+```
+
+-   위 css는 default로 브라우저 viewport 기준(브라우저에서 페이지를 볼 수 있는 부분)으로 위치를 잡는다. 때문에 스크롤되는 페이지 하단에 버튼이 보여지는게 아니라 현재 보여지는 페이지 기준으로 버튼이 보여진다.
+-   스크롤 했을 때 가장 하단 영역에 버튼이 보여지게 하려면 parent 요소를 position: relative로 두고, parent 요소 기준으로 위치를 설정할 수 있다.
+-   parent 요소는 position: relative로 설정된 parent 중 가장 가까운 요소 기준이다.
+
+<br>
+
+```css
+body {
+    color: #444;
+    font-family: sans-serif;
+    border-top: 10px solid #1098ad;
+    position: relative;
+}
+```
+
+<br>
+
+-   위 속성을 복잡한 레이아웃을 만드는데 사용하지 말고 버튼처럼 작은 단일 요소에 대해서만 absolute를 사용한다.
+
+<br><br>
