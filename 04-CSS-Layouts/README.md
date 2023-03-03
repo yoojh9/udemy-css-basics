@@ -132,3 +132,34 @@ float: right;
 <br>
 
 ### (3) Building a Simple Float Layout
+
+-   https://github.com/yoojh9/udemy-css-basics/tree/main/04-CSS-Layouts
+
+<br><br>
+
+## 4) BOX-SIZING: BORDER-BOX
+
+```css
+box-sizing: border-box;
+```
+
+### (1) box-sizing: border-box 적용 전
+
+```
+Final element width = right border + right padding + width + left padding + left border
+
+Final element height = top border + top padding + height + bottom padding + bottom border
+```
+
+### (2) box-sizing: border-box 적용 후
+
+```
+Final element width = width
+
+Final element height = height
+```
+
+<br>
+
+-   slide 67p 참고
+-   box-sizing: border-box 속성은 universal selector에 넣어서 모든 요소에 적용되도록 한다.
