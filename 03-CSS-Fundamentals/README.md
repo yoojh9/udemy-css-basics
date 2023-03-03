@@ -648,7 +648,3 @@ h2::after {
 <br>
 
 -   https://github.com/yoojh9/udemy-css-basics/commit/ed3718539af18b804a20b61c319ec4d2b038f931
-
-<br><br>
-
-## 18) DEVELOPER SKILL #1: GOOGLING AND READING DOCUMENTATION
