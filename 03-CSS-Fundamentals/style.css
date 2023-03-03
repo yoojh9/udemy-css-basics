@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 37px;
     margin-bottom: 30px;
 }
 
@@ -197,6 +197,34 @@ button {
     bottom: 50px;
     right: 50px;
 }
+
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+h2 {
+    position: relative;
+}
+/* pseudo element는 기본적으로 inline임 */
+h2::after {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+}
+
+/* h2::first-letter {
+    font-size: 80px;
+} */
+/* h3 + p::first-line {
+    color: red;
+} */
 
 /* Resolving conflicts */
 /* #copyright {

@@ -584,5 +584,63 @@ body {
 <br>
 
 -   위 속성을 복잡한 레이아웃을 만드는데 사용하지 말고 버튼처럼 작은 단일 요소에 대해서만 absolute를 사용한다.
+-   https://github.com/yoojh9/udemy-css-basics/commit/6c5fb9388cc8f622f50544452d514e55de0b4021
 
 <br><br>
+
+## 17) PSEUDO-ELEMENTS
+
+-   pseudo class와는 별개이다.
+-   아래 css는 h1의 첫번째 글자를 의미한다.
+
+<br>
+
+```css
+h1::first-letter {
+    font-style: normal;
+    margin-right: 5px;
+}
+```
+
+<br>
+
+-   \+ 기호는 sibling을 의미하며 아래 selector는 h3 요소 다음에 오는 sibling 요소인 p 요소의 첫번째 라인을 의미한다.
+
+<br>
+
+```css
+h3 + p::first-line {
+    color: red;
+}
+```
+
+<br>
+
+-   ::after 또는 ::before pseudo 코드를 이용해 html에는 없는 요소를 만들 수도 있다.
+
+<br>
+
+```css
+h2 {
+    position: relative;
+}
+/* pseudo element는 기본적으로 inline임 */
+h2::after {
+    content: "TOP";
+    background-color: #ffe70e;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+}
+```
+
+<br>
+
+-   위 css는 아래 이미지처럼 보인다.
+
+<img src="image.png" width="600px">
