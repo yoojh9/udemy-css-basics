@@ -200,3 +200,27 @@ Final element height = height
 -   **justify-content**: To align items along main axis (horizontally, by default)
 -   **align-items**: To align items along cross axis (vertically, by default)
 -   **align-self**: To overwrite align-items for individual flex items
+-   https://github.com/yoojh9/udemy-css-basics/commit/b5fd333a4a5d392ee00f68b91e85b99739c1dd65
+
+<br><br>
+
+## 3) The Flex Property
+
+-   **flex-basis**: To define an item’s width, instead of the width property. flex-basis 값 기준으로 브라우저에서 자동으로 크기를 줄일 수 있다. (flex-shrink가 default로 1이기 때문) container에 크기가 충분하지 않으면 flex-basis: 200px;으로 설정하더라도 그보다 적은 너비를 가질 수 있다.
+
+-   **flex-shrink**: To allow an element to shrink (0 means no, 1+ means yes)
+
+-   **flex-grow**: To allow an element to grow (0 means no, 1+ means yes). container 영역에서 차지할 수 있는 만큼 늘어남.
+
+-   **flex**: Recommended shorthand for flex-grow, -shrink, -basis. (ex. flex: 0 1 auto)
+
+-   flex 속성을 사용하는 것을 권장!
+
+<br>
+
+```css
+/* DEFAULTS */
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+```
