@@ -224,3 +224,7 @@ flex-grow: 0;
 flex-shrink: 1;
 flex-basis: auto;
 ```
+
+<br><br>
+
+## 4) Building a Simple Flexbox Layout
