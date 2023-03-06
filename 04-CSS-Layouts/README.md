@@ -335,3 +335,9 @@ justify-items: end;
 <br>
 
 -   https://github.com/yoojh9/udemy-css-basics/commit/88148d839db58cca97410abcd0c48e7c2971ad7e
+
+<br><br>
+
+## 6) Building a simple CSS Grid layout
+
+-   https://github.com/yoojh9/udemy-css-basics/commit/d321163c47bd2dba6d3a51a852178fb471dc5019
