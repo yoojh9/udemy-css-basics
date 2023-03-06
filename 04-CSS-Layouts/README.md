@@ -240,3 +240,32 @@ flex-basis: auto;
 # 3. CSS GRID
 
 ## 1) Introduction CSS
+
+```css
+/* CSS GRID */
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 100px 100px;
+    grid-template-rows: 300px 200px;
+    /* gap: 30px; */
+    column-gap: 30px;
+    row-gap: 60px;
+}
+```
+
+<br><br>
+
+## 2) A CSS Grid Overview
+
+### (1) What is CSS GRID ?
+
+-   CSS Grid is a set of **CSS properties** for **building 2-dimensional layouts**
+-   THe main idea behind CSS Grid is that we **divide a container element into rows and columns** that can be filled with its child elements
+-   In two-dimensional contexts, CSS Grid allows us to write **less nested HTML and easier-to-read CSS**
+-   CSS Grid is **not meant to replace flexbox**! Instead, they work perfectly together. Need a **1D** layout? Use flexbox. Need a **2D** layout? Use CSS grid.
+
+<br>
+
+### (2) Sizing GRID Columns ans Rows
+
+-   grid는 px보다 fr을 사용하여 유연하게 만든다.
