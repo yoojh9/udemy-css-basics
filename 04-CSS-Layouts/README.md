@@ -181,6 +181,8 @@ Final element height = height
 }
 ```
 
+<br><br>
+
 ---
 
 # 2. FlexBox
@@ -228,3 +230,13 @@ flex-basis: auto;
 <br><br>
 
 ## 4) Building a Simple Flexbox Layout
+
+-   https://github.com/yoojh9/udemy-css-basics/commit/2c5c5d5f4ab16ef44618a620ed4c8dde602eceb8
+
+<br><br>
+
+---
+
+# 3. CSS GRID
+
+## 1) Introduction CSS
