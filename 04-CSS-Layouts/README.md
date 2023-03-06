@@ -275,8 +275,8 @@ flex-basis: auto;
 
 ## 4) Placing and Spanning Grid Items
 
--   **grid-column**: <start line> / <end line>
--   **grid-row: <start line> / <end line>**
+-   **grid-column**: \<start line\> / \<end line\>
+-   **grid-row**: \<start line\> / \<end line\>
 
 -   아래 css 코드는 같은 역할을 한다.
 
