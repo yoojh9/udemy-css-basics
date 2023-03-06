@@ -298,3 +298,36 @@ grid-column: 1/-1;
 ```
 
 <br>
+
+-   https://github.com/yoojh9/udemy-css-basics/commit/2332b346720077ffd7501e1ea99543f15ac5c7aa
+
+<br><br>
+
+## 5) Aligning GRID Items and Tracks
+
+### (1) Aligning items Inside Container
+
+-   distribute empty space
+-   트랙 정렬 용
+
+<br>
+
+```css
+/* Aligning tracks inside container: distribute empty space */
+
+justify-content: center;
+align-content: space-between;
+```
+
+<br>
+
+### (2) Aligning items Inside Cell
+
+-   moving items around inside cells
+
+<br>
+
+```css
+align-items: end;
+justify-items: end;
+```
