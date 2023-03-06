@@ -257,15 +257,44 @@ flex-basis: auto;
 
 ## 2) A CSS Grid Overview
 
-### (1) What is CSS GRID ?
+### What is CSS GRID ?
 
 -   CSS Grid is a set of **CSS properties** for **building 2-dimensional layouts**
 -   THe main idea behind CSS Grid is that we **divide a container element into rows and columns** that can be filled with its child elements
 -   In two-dimensional contexts, CSS Grid allows us to write **less nested HTML and easier-to-read CSS**
 -   CSS Grid is **not meant to replace flexbox**! Instead, they work perfectly together. Need a **1D** layout? Use flexbox. Need a **2D** layout? Use CSS grid.
 
-<br>
+<br><br>
 
-### (2) Sizing GRID Columns ans Rows
+## 3) Sizing GRID Columns ans Rows
 
 -   grid는 px보다 fr을 사용하여 유연하게 만든다.
+-   https://github.com/yoojh9/udemy-css-basics/commit/d2107ad2e7e7380580a2803593d2f8a50b28cf05
+
+<br><Br>
+
+## 4) Placing and Spanning Grid Items
+
+-   **grid-column**: <start line> / <end line>
+-   **grid-row: <start line> / <end line>**
+
+-   아래 css 코드는 같은 역할을 한다.
+
+<br>
+
+```css
+grid-column: 1 / 4;
+grid-column: 1 / span 3;
+```
+
+<br>
+
+-   grid item을 수평으로 끝까지 늘리고 싶다면 grid-column 의 end line을 -1로 사용한다.
+
+<br>
+
+```css
+grid-column: 1/-1;
+```
+
+<br>
