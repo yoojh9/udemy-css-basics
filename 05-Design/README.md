@@ -230,3 +230,27 @@
 - Use small shadows for smaller elements that should stand out (to draw attention)
 - Use medium-sized shadows for larger area that should stand out a bit more
 - Use large shadows for elements that should really float above the interface
+
+<br>
+
+### (3) Implementing Shadow
+
+- 영역에 shadow를 넣을 때는 box-shadow 속성을 추가한다
+- figure element는 보통 카드 UI에 사용하는 요소이다.
+
+<br>
+
+```css
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
+```
+
+<br>
+
+- 텍스트에 shadow를 넣을 때는 text-shadow 속성을 사용한다.
+
+<br>
+
+```css
+text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+```
