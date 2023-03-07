@@ -109,3 +109,9 @@
 - Tint & Shade Generator: https://maketintsandshades.com/
 - Paletton: https://paletton.com
 - Coolors: https://coolors.co/
+
+<br>
+
+### (5) Implementing Colors
+
+- Coolors로 Color Contrast를 체크할 수 있다 (https://coolors.co/contrast-checker)
