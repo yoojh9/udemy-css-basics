@@ -56,3 +56,14 @@
 - Decrease letter spacing in headlines, if it looks unnatural(this will come from experience)
 - Experiment with all caps for short titles. Make them small and bold and increase letter-spacing
 - Don't center long text blocks. Small blocks are fine
+
+<br>
+
+### (4) Tools
+
+- google fonts: https://fonts.google.com/
+- Type Scale: https://typescale.com/
+
+<br>
+
+### (5) Implementing Typography
