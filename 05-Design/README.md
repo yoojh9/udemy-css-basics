@@ -72,7 +72,7 @@
 
 <br><br>
 
-## 2) WEB DESIGN RULES #2: COLORS
+## 3) WEB DESIGN RULES #2: COLORS
 
 ### (1) Choose the Right Color
 
@@ -119,7 +119,7 @@
 
 <br><br>
 
-## 3) WEB DESIGN RULES #3: Images and Illustrations
+## 4) WEB DESIGN RULES #3: Images and Illustrations
 
 ### (1) Use Good Images
 
@@ -164,3 +164,41 @@
   - DrawKit: https://www.drawkit.com/
   - UnDraw: https://undraw.co/
   - Squoosh: https://squoosh.app/
+
+<br><br>
+
+## 5) WEB DESIGN RULES #4: Icons
+
+### (1) Use Good Icons
+
+- Use a good icon pack, there are tons of free and paid icons packs
+- Use only one icon pack. Don't mix icons from diffrent icon packs.
+- Use SVG icons or icon fonts. Don't use bitmap image formats (.jps and .png)
+  - Vector-based: SVG images and icon fonts. Scale indefinitely!
+  - Bitmap: Regular images (JPG, PNG, GIF), Do not scale, become unsharp!
+- Adjust to website personality! Roundeness, weight and filled/outlined depend on typography
+
+<br>
+
+### (2) When to use Icons
+
+- Use icons to provide visual assistance to text
+- Use icons for product feature blocks
+- Use icons associated with actions, and label them
+- Use icons as bullet points
+
+<br>
+
+### (3) Use Icons Well
+
+- To keep icons neutral, **use same color as text**. To draw more attention, use different color
+- Don't confuse your users: icons need to make sense and fit the text or action!
+- Don't make icons larger than what they were designed for. if needed, enclose them in a shpace.
+
+<br>
+
+### (4) Tools
+
+- Phosphor icons: https://phosphoricons.com/
+- ionicons: https://ionic.io/ionicons
+- Icons8: https://icons8.com/
