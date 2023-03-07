@@ -115,3 +115,52 @@
 ### (5) Implementing Colors
 
 - Coolors로 Color Contrast를 체크할 수 있다 (https://coolors.co/contrast-checker)
+- https://github.com/yoojh9/udemy-css-basics/commit/ff20407b47699cd436eef4546ae957c28d251686
+
+<br><br>
+
+## 3) WEB DESIGN RULES #3: Images and Illustrations
+
+### (1) Use Good Images
+
+- Different types of images: product photos, storytelling photos, illustrations, patterns
+- Use images to support your website's message and story. So only use relevant images!
+- Prefer original images. If not possible, use original-looking stock images(not generic ones!)
+
+<br>
+
+### (2) Use Images Well
+
+- Try to show real people to trigger user's emotions
+- if necessary, crop images to fit your message
+- Experiment combining photos, illustrations and patterns
+
+<br>
+
+### (3) Handling Text On Images
+
+- Method #1: Darker or brighten image (completely or partially, using a gradient)
+- Method #2: Position text into neutral image area
+- Method #3: Put text in a box
+
+<br>
+
+### (4) Some Technical Details
+
+- To account for high-res screens, make image dimensions 2x as big as their displayed size
+  - **scale factor**: Actual pixels the screen contains / Pixels represented on screen
+  - On high-res screens, scale factor is 2x or even 3x, on "normal" screens it's just 1x (1 physical pixel = 1 design pixel)
+- 고해상도 스크린을 위해 이미지는 300 x 300px로 보여진다 하더라도 이미지 원본은 600 x 600px의 이미지를 사용해야 한다.
+- Compress image for a lower file size and better performance (squoosh를 이용해 96%까지 이미지를 줄일 수 있다)
+- When using multiple images side-by-side, make sure they have the **exact same dimensions** (이미지 가로, 세로 길이가 같은지 최소한 가로 세로 비율이 같은지 확인 필요)
+
+<br>
+
+### (5) Tools
+
+- Use images from (for free)
+  - Unsplash: https://unsplash.com/ko
+  - Pexels: https://www.pexels.com/ko-kr/
+  - DrawKit: https://www.drawkit.com/
+  - UnDraw: https://undraw.co/
+  - Squoosh: https://squoosh.app/
