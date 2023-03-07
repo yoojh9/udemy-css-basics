@@ -67,3 +67,45 @@
 <br>
 
 ### (5) Implementing Typography
+
+- https://github.com/yoojh9/udemy-css-basics/tree/main/05-Design
+
+<br><br>
+
+## 2) WEB DESIGN RULES #2: COLORS
+
+### (1) Choose the Right Color
+
+- Make the main color match your website's personality: colors convey meaning!
+- Use a good color tone! Don't choose a random tone or CSS named colors
+- You need at least two types of colors in your color palette: a **main color** and a **grey color**
+- With more experience, you can add more colors: **accent(secondary) colors** (use a tool)
+- For diversity, create ligher and darker "versions" **(tint and shades)**
+
+<br>
+
+### (2) When and How to use Colors
+
+- Use your main color to draw attention to the most important elements on the page
+- Use colors to add interesting accents or make entire components or sections stand out
+- You can try to use your colors strategically in images and illustrations
+
+<br>
+
+### (3) Colors and Typography
+
+- On dark colored backgrounds, try to use a tint of the background("light version") for text
+- Text should usually not be completely black. Lighten if up it looks heavy and uninviting.
+- **Don't make text too light!** Use a tool(ex.Coolors) to check contrast between text and background colors
+  - Contrast ratio need to be at least **4.5:1 for normal text** and **3:1 for large text**(18px+)
+
+<br>
+
+### (4) Tools
+
+- Open Color: https://yeun.github.io/open-color/
+- Tailwind CSS: https://tailwindcss.com/docs/customizing-colors
+- Flat UI Colors 2: https://flatuicolors.com/
+- Tint & Shade Generator: https://maketintsandshades.com/
+- Paletton: https://paletton.com
+- Coolors: https://coolors.co/
