@@ -205,3 +205,28 @@
 - heroicons: https://heroicons.com/
 
 ### (5) Implementing Icons
+
+- https://github.com/yoojh9/udemy-css-basics/commit/7fce25d5045d405d76cc4dd9c68da075d2ec8664
+
+<br><br>
+
+## 6) WEB DESIGN RULES #4: SHADOWS
+
+- After an era of 100% flat design, we're now back to using shadows in UI design("flat design 2.0")
+- Shadow creates depth (3D): the more shadow, the further away from the interface
+
+<br>
+
+### (1) Use Shadows Well
+
+- You don't have to use shadows! only use them if it makes sense for the website personality.
+- Use shadows in small doses: don't add shadows to every element
+- Go light on shadows, don't make them too dark!
+
+<br>
+
+### (2) Use Shadows in the Right Situation
+
+- Use small shadows for smaller elements that should stand out (to draw attention)
+- Use medium-sized shadows for larger area that should stand out a bit more
+- Use large shadows for elements that should really float above the interface
