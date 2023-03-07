@@ -202,3 +202,6 @@
 - Phosphor icons: https://phosphoricons.com/
 - ionicons: https://ionic.io/ionicons
 - Icons8: https://icons8.com/
+- heroicons: https://heroicons.com/
+
+### (5) Implementing Icons
