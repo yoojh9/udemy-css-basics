@@ -272,3 +272,31 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 <br>
 
 ### (2) Implementing border-radius
+
+- https://github.com/yoojh9/udemy-css-basics/commit/a86d15659e15402cf2edcb0b6d59e0b6db718a29
+
+<br><br>
+
+## 7) WEB DESIGN RULES #6: WHITESPACE
+
+### (1) Why whitespace?
+
+- The right amount of whitespace makes designs look clean, modern and polished
+- Whitespace communicates how different pieces of information are related to one another
+- Whitespace implies invisible relationship between the elements of a layout
+
+<br>
+
+### (2) Where to use whitespace ?
+
+- Use tons of whitespace between sections
+- Use a lot of whitespace between groups of elements
+- Use whitespace between elements
+- Inside groups of elements, try to use whitespace instead of lines
+
+<br>
+
+### (3) How much whitespace ?
+
+- The more some elements belong together, the closer they should be!
+- Match other design choices. If you have big text or big icons, you need more whitespace
