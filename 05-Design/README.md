@@ -210,7 +210,7 @@
 
 <br><br>
 
-## 6) WEB DESIGN RULES #4: SHADOWS
+## 6) WEB DESIGN RULES #5: SHADOWS
 
 - After an era of 100% flat design, we're now back to using shadows in UI design("flat design 2.0")
 - Shadow creates depth (3D): the more shadow, the further away from the interface
@@ -254,3 +254,21 @@ box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);
 ```css
 text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 ```
+
+<br>
+
+- https://github.com/yoojh9/udemy-css-basics/commit/ec9c28116850c10c899bf2d5fe9fb359970f6193
+
+<br><br>
+
+## 6) WEB DESIGN RULES #5: BORDER-RADIUS
+
+### (1) Use border-radius Well
+
+- Use border-radius to increase the playfulness and fun of the desine, to make it less serious
+- Typefaces have a certain roundness: make sure that border-radius matches that roundness!
+- Use border-radius on buttons, images, around icons, standout sections and other elements
+
+<br>
+
+### (2) Implementing border-radius
