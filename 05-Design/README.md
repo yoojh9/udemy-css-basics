@@ -300,3 +300,20 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 
 - The more some elements belong together, the closer they should be!
 - Match other design choices. If you have big text or big icons, you need more whitespace
+
+<br><br>
+
+## 8) WEB DESIGN RULES #7: VISUAL HIERARCHY
+
+### (1) What is visual hierarchy?
+
+- Visual hierarchy is about establishing which elements of a design are the most important ones
+- Visual hierarchy is about drawing attention to these most important elements
+- Visual hierarchy is about defining a 'path' for users, to guide them through the page
+- We use a combination of position, size, colors, spacing, borders, and shadows to establish a meaningful visual hierarchy between elements/components
+
+<br>
+
+### (2) Visual hierarchy fundamentals
+
+- Position important elements **closer to the top the page**, where they get more attention
