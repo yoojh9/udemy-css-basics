@@ -40,3 +40,25 @@
 - Tables
 - Pricing Tables
 - Modal Windows
+
+<br><br>
+
+## 2) Building an Accordion component
+
+### (1) Switching Flex-Direction to Column
+
+- Main Axis가 가로 방향에서 세로 방향으로 변함.
+- with flex-direction set to **COLUMN :**
+  - align-items aligns items **horizontally**, no longer vertically
+  - justify-content aligns items **vertically**, no longer horizontally
+  - gap acts like **margin-bottom**, no longer like margin-right
+
+<br>
+
+```css
+.accordion {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+```
