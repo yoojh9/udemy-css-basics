@@ -392,3 +392,19 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 - Only include relevant information, effciently! Cut off flutt and make the content 100% clear.
 - Use simple words! avoid technical jargon and "smart-souding" words.
 - Break up long text with sub-headings, images, block quotes, bullet points, ect.
+
+<br><br>
+
+## 11) The Website-Personalities-Framework
+
+### (1) The 7 Personalities
+
+- Serious/Elegant
+- Minimalist/Simple
+- Plain/Neutral
+- Bold/Confident
+- Calm/Peaceful
+- Startup/Upbeat
+- Playful/Fun
+
+<br>
