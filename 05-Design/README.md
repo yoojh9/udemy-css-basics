@@ -261,7 +261,7 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 
 <br><br>
 
-## 6) WEB DESIGN RULES #5: BORDER-RADIUS
+## 7) WEB DESIGN RULES #6: BORDER-RADIUS
 
 ### (1) Use border-radius Well
 
@@ -277,7 +277,7 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 
 <br><br>
 
-## 7) WEB DESIGN RULES #6: WHITESPACE
+## 8) WEB DESIGN RULES #7: WHITESPACE
 
 ### (1) Why whitespace?
 
@@ -303,7 +303,7 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 
 <br><br>
 
-## 8) WEB DESIGN RULES #7: VISUAL HIERARCHY
+## 9) WEB DESIGN RULES #8: VISUAL HIERARCHY
 
 ### (1) What is visual hierarchy?
 
@@ -339,4 +339,56 @@ text-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
 
 ### (5) Implementing Whitespace and Visual Hierarchy
 
-- https://github.com/yoojh9/udemy-css-basics/commit/227ecd1e51bfadb88d3c376fe266a3499957304e
+- https://github.com/yoojh9/udemy-css-basics/commit/da5224535daf1d50c2b6a372497b80612bcea34e
+
+<br><br>
+
+## 10) WEB DESIGN RULES #9: USER EXPERIENCE(UX)
+
+### (1) What is User Experience(UX)?
+
+- **User Interface(UI)** is the visual presentation of a porudct. It's how the graphical interface looks and feel like
+
+  - Layout
+  - "Personality"
+  - Typograph, colors, icons, etc
+
+- **User Experience(UX)** is the overall experience the use has while interacting with the product
+  - Does the app feel logical and well thought out?
+  - Does the navigation work intuitively?
+  - Are users reaching their goals?
+
+<br>
+
+### (2) UI and UX Design
+
+- **UI** is graphical interface -> UI Design is what makes an interface beautiful
+- **UX** is experience with interface -> UX Design is what makes an inteface useful and functional
+- UX Design can not exist without UI Design!
+
+<br>
+
+### (3) UX Design guiding principle: GOALS
+
+- A website or application exists for a reason: a user has a goal for visiting it, and a business has a goal for creating it
+
+<br>
+
+### (4) UX rules for usability
+
+- Don't design complicated layouts. Don't reinvent the wheel. Use patterns that users know
+- Make your call-to-ation the most prominent element, and make the text desciptive
+- Use blue text and underlined text only for links!
+- Animation should have a purpose and be fast: between 200 and 500ms
+- In forms, align labels and fields in a single vertical line, to make the form easier to scan
+- offer users good feedback for all actions: form errors, form success, etc
+- Place action buttons where they will create an effect (law of locality)
+
+<br>
+
+### (5) UX rules for Website Content
+
+- Use a descriptive, keyword-focused headline on your main page. Don't be value or fancy!
+- Only include relevant information, effciently! Cut off flutt and make the content 100% clear.
+- Use simple words! avoid technical jargon and "smart-souding" words.
+- Break up long text with sub-headings, images, block quotes, bullet points, ect.
