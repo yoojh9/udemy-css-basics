@@ -103,3 +103,9 @@
   transform: translate(-50%, -50%);
 }
 ```
+
+<br><br>
+
+## 4) Building a Table Component
+
+- 요즘에는 CSS Grid나 Flexbox가 있어서 Table을 많이 쓰지 않는다.
