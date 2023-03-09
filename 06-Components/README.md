@@ -62,3 +62,7 @@
   flex-direction: column;
 }
 ```
+
+<br>
+
+- https://github.com/yoojh9/udemy-css-basics/commit/10c858f7ba4e884e4e69b23ff8a7cfbea04d9d39
