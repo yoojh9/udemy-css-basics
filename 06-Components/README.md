@@ -49,7 +49,7 @@
 
 ### (1) Accordion component
 
-### Switching Flex-Direction to Column
+#### Switching Flex-Direction to Column
 
 - Main Axis가 가로 방향에서 세로 방향으로 변함.
 - with flex-direction set to **COLUMN :**
