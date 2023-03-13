@@ -109,3 +109,18 @@
 ## 4) Building a Table Component
 
 - 요즘에는 CSS Grid나 Flexbox가 있어서 Table을 많이 쓰지 않는다.
+
+<br><br>
+
+## 5) Building a Pagination Component
+
+- 공백이 있으면 하위 selector고, 공백이 없으면 and selector
+
+<br>
+
+```css
+.page-link .page-link--current {
+}
+.page-link.page-link--current {
+}
+```
