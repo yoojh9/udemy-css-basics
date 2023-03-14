@@ -7,3 +7,5 @@
 ## [4. Web Design Rules and Framework](https://github.com/yoojh9/udemy-css-basics/tree/main/05-Design)
 
 ## [5. Components and Layout Patterns](https://github.com/yoojh9/udemy-css-basics/tree/main/06-Components)
+
+## [6. Omnifood Desktop](https://github.com/yoojh9/udemy-css-basics/tree/main/07-Omnifood-Desktop)
