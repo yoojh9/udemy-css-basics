@@ -61,3 +61,41 @@
 - Keep the website content updated over tieme. If you're working with a client, you can create a montly maintenance contract
 - Install **analytics software** (e.g. Google Analytics or Fathom) to get statics about website users. This may inform future changes in the site structure and content.
 - A blog that is updated regularly is a good way to keep users coming back, and is also good for SEO.
+
+<br><br>
+
+## 2) RESPONSIVE DESIGN
+
+### (1) What is Reponsive Design?
+
+- Design technique to make a webpace adjust its layout and visual stype to **any possible screen size** (window or viewport size)
+- In practice, this means that responsive design makes websites usable on all devices, such as **desktop computers, tablets, and mobile phones.**
+- It's a set of practices, not a seperate technology. It's all just CSS!
+
+<br>
+
+### (2) Responsive Design Ingredients
+
+- Fluid Layouts
+
+  - To allow webpage to adapt to the **current viewport** width (or even height)
+  - Use % (or vh / vw) unit instead of px for elements that should adapt to viewport (usually layout)
+  - Use max-width instead of width
+
+- Resposive Units
+
+  - Use rem unit instead of px for most lengths
+  - To make it easy to **scale the entire layout down**(or up) automatically
+  - **Helpful trickL** setting 1rem to 10px for easy calculations
+
+- Flexible images
+
+  - By default, images don't scale automatically as we change the viewport. so we need to fix that
+  - Always use % for image dimensions, together with the max-width property
+
+- Media Queries
+
+  - Bring resposive sites to life!
+  - To change CSS styles on **certain viewport widths**(called breakpoints)
+
+<br><br>
