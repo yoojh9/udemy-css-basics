@@ -74,7 +74,7 @@
 
 <br><br>
 
-### (2) Building a Carousel Component
+### (2) Carousel Component
 
 - 아래 .btn 클래스는 position이 absolute이다. top, left는 relative한 부모 컨테이너 기준으로 이동한다. 아래 코드는 부모 element 기준으로 50% 내려가는 위치에 child element가 위치되므로 정확히 중간 위치가 아니다. 이때 child element의 절반 크기만큼 다시 위로 올려야 되는데 이때 사용한 것이 transform: translate(-50%, -50%)이다.
 - 즉 trasform: translate(-50%, -50%)는 그 element 기준이다.
@@ -110,13 +110,13 @@
 
 <br><br>
 
-### (3) Building a Table Component
+### (3) Table Component
 
 - 요즘에는 CSS Grid나 Flexbox가 있어서 Table을 많이 쓰지 않는다.
 
 <br><br>
 
-### (4) Building a Pagination Component
+### (4) Pagination Component
 
 - 공백이 있으면 하위 selector고, 공백이 없으면 and selector
 
@@ -128,3 +128,13 @@
 .page-link.page-link--current {
 }
 ```
+
+<br><br>
+
+## 3) Building Sections
+
+### (1) Hero Section
+
+- vh: 뷰포트의 높이를 의미함
+
+<br>
