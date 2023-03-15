@@ -110,3 +110,19 @@
 ## 4) Developing Omnifood System
 
 ### (1) Building a Hero Section
+
+- 모든 속성을 1초동안 변경함 (애니메이션 효과)
+
+<br>
+
+```css
+transition: all 1s;
+```
+
+<br>
+
+- background-color 속성을 1초동안 변경함
+
+```css
+transition: background-color 1s;
+```
