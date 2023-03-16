@@ -136,3 +136,9 @@ transition: background-color 1s;
 <br>
 
 ### (3) Building the Navigation
+
+- https://github.com/yoojh9/udemy-css-basics/commit/137ed0b1c4eaaa387fda7257c616875abcb5990b
+
+<br>
+
+### (4) Setting Up a Reusable Grid
