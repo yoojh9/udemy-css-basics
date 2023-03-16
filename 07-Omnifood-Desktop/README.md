@@ -126,3 +126,7 @@ transition: all 1s;
 ```css
 transition: background-color 1s;
 ```
+
+<br>
+
+### (2) Building the Header
