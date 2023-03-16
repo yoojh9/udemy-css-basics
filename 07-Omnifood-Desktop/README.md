@@ -130,3 +130,9 @@ transition: background-color 1s;
 <br>
 
 ### (2) Building the Header
+
+- https://github.com/yoojh9/udemy-css-basics/commit/c9d4d99a2b9a0f0f03b352e00e06fc801e5ff8b7
+
+<br>
+
+### (3) Building the Navigation
