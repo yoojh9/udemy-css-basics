@@ -148,3 +148,9 @@ transition: background-color 1s;
 <br>
 
 ### (5) Building the How-It-Works Section
+
+- https://github.com/yoojh9/udemy-css-basics/commit/3fbb2330a4147930f0b232a2a2ce420ff0b02c34
+
+<br>
+
+### (6) Builidng the Featured-In Section
