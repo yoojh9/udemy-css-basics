@@ -166,3 +166,5 @@ transition: background-color 1s;
 <br>
 
 ### (8) Building the Testimonials Section
+
+- https://github.com/yoojh9/udemy-css-basics/commit/272792bf95b493bd9c090e7e0ddba85380a23a98
