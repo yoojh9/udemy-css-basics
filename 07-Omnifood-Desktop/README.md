@@ -142,3 +142,9 @@ transition: background-color 1s;
 <br>
 
 ### (4) Setting Up a Reusable Grid
+
+- https://github.com/yoojh9/udemy-css-basics/commit/7a1b6c5a131fe431991271a7ba59d9015f6074a6
+
+<br>
+
+### (5) Building the How-It-Works Section
