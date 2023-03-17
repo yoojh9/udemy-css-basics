@@ -161,4 +161,8 @@ transition: background-color 1s;
 
 ### (7) Building the Meals Section
 
--
+- https://github.com/yoojh9/udemy-css-basics/commit/cc0353bde5a02c43ad1a9a9638c7ffcabb9c9110
+
+<br>
+
+### (8) Building the Testimonials Section
