@@ -154,3 +154,11 @@ transition: background-color 1s;
 <br>
 
 ### (6) Builidng the Featured-In Section
+
+- https://github.com/yoojh9/udemy-css-basics/commit/74a0eb7795da67b30ebffce49421ce3307225bae
+
+<br>
+
+### (7) Building the Meals Section
+
+-
