@@ -190,3 +190,5 @@ transition: background-color 1s;
 <br>
 
 ### (12) Building the Footer
+
+- https://github.com/yoojh9/udemy-css-basics/commit/3a208804ecfd596fb7d0ab2c813a9a17c1d59be9
