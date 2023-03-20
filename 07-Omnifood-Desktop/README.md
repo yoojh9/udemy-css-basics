@@ -178,3 +178,9 @@ transition: background-color 1s;
 <br>
 
 ### (10) Building the Features Part
+
+- https://github.com/yoojh9/udemy-css-basics/commit/49752fe2ca8e43a7761332c982d754e7c27ea677
+
+<br>
+
+### (11) Building the Call-To-Action Section
