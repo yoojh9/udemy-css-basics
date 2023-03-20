@@ -171,4 +171,10 @@ transition: background-color 1s;
 
 <br>
 
-### (9) Building the Pricing Section
+### (9) Building the Pricing Part
+
+- https://github.com/yoojh9/udemy-css-basics/commit/af17d4d56320e72d585b6e709497950a0d0890b3
+
+<br>
+
+### (10) Building the Features Part
