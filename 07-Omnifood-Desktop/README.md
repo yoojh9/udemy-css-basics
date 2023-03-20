@@ -184,3 +184,9 @@ transition: background-color 1s;
 <br>
 
 ### (11) Building the Call-To-Action Section
+
+- https://github.com/yoojh9/udemy-css-basics/commit/32d1267e4c3f7124c8a317670bbd1b14b6de87ee
+
+<br>
+
+### (12) Building the Footer
