@@ -9,3 +9,5 @@
 ## [5. Components and Layout Patterns](https://github.com/yoojh9/udemy-css-basics/tree/main/06-Components)
 
 ## [6. Omnifood Desktop](https://github.com/yoojh9/udemy-css-basics/tree/main/07-Omnifood-Desktop)
+
+## [7. Omnifood Responsive](https://github.com/yoojh9/udemy-css-basics/tree/main/08-Omnifood-Responsive)
