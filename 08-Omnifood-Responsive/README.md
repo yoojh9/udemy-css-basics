@@ -1,3 +1,3 @@
 # Omnifood Responsive
 
-## 1) Responding to Small Laptops
+- queries.css 참고
