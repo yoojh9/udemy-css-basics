@@ -498,7 +498,7 @@ With CSS: display: inline
 - Looks like inline from the **outside**, behaves like block-level on the **inside**
 - Occupies only content's space
 - Cause no line-breaks
-- Box-modle applies as showed (height, width 설정 가능, padding, margin 가능)
+- Box-model applies as showed (height, width 설정 가능, padding, margin 가능)
 
 <br>
 
